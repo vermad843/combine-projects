@@ -4,9 +4,17 @@ import './Header.css';
 function Header() {
     return (
         <div className = "header">
-            <h1>I am a header</h1>
+            <div className = "header__left">
+               <h1>FICTION BEATS</h1>
+            </div>
+            <div className = "header__mid">
+               <h1>FICTION BEATS</h1>
+            </div>
+            <div className = "header__right">
+               <h1>FICTION BEATS</h1>
+            </div>
         </div>
     )
 }
 
-export default Header
+export default Header;
