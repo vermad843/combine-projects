@@ -1,4 +1,7 @@
 import React from 'react';
+import SearchIcon from '@material-ui/icons/Search';
+import PersonIcon from '@material-ui/icons/Person';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import './Header.css';
 
 function Header() {
@@ -22,7 +25,9 @@ function Header() {
                 </div>
             </div>
             <div className = "header__right">
-               <h2>FICTION BEATS</h2>
+                <SearchIcon className = "header__right__icon"/>
+                <PersonIcon className = "header__right__icon"/>
+                <ShoppingCartIcon className = "header__right__icon"/>
             </div>
         </div>
     )

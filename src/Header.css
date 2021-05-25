@@ -18,3 +18,13 @@
     justify-content:space-between;
     padding-right : 30px;
 }
+
+.header__right{
+    display : flex;
+    align-items : center;
+    justify-content:space-between;
+}
+
+.header__right > .header__right__icon {
+    padding-right : 30px;
+}
