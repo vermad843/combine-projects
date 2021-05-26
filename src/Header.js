@@ -19,17 +19,21 @@ function Header() {
                      <h2>HOME</h2>
                   </div> 
                 </Link>
-                <Link to = "/Drum">
+                <Link to = "/drum">
                   <div className = "header__mid__content">
                      <h2>DRUM& SAMPLE KITS</h2>     
                   </div>
                 </Link>
-                <div className = "header__mid__content">
-                  <h2>CONTACT</h2>
-                </div>
-                <div className = "header__mid__content">
-                  <h2>FREE DOWNLOADS</h2>
-                </div>
+                <Link to = "/contact">
+                  <div className = "header__mid__content">
+                    <h2>CONTACT</h2>
+                  </div>
+                </Link>
+                <Link to = "/freedownloads">
+                  <div className = "header__mid__content">
+                    <h2>FREE DOWNLOADS</h2>
+                  </div>
+                </Link>
             </div>
             <div className = "header__right">
                 <SearchIcon className = "header__right__icon"/>
