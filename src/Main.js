@@ -1,12 +1,13 @@
 import React from 'react';
-import './main.css';
+import './Main.css';
 
 function Main() {
     return (
         <div className = "main">
-            <h1>
-                This is a main component
-            </h1>
+            <img
+               src = "Mountain.jpg"
+             />
+             <h1>Component</h1>
         </div>
     )
 }
