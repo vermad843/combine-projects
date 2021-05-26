@@ -7,9 +7,8 @@ function Main() {
             <img
                src = "Mountain.jpg"
              />
-             <h1>Component</h1>
         </div>
     )
 }
 
-export default Main
+export default Main;

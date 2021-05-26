@@ -3,6 +3,9 @@ import SearchIcon from '@material-ui/icons/Search';
 import PersonIcon from '@material-ui/icons/Person';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import './Header.css';
+import {
+  Link
+} from "react-router-dom";
 
 function Header() {
     return (
@@ -11,12 +14,16 @@ function Header() {
                <h2>FICTION BEATS</h2>
             </div>
             <div className = "header__mid">
-               <div className = "header__mid__content">
-                 <h2>HOME</h2>
-                </div> 
-                <div className = "header__mid__content">
-                   <h2>DRUM& SAMPLE KITS</h2>     
-                </div>
+                <Link to = "/">
+                  <div className = "header__mid__content">
+                     <h2>HOME</h2>
+                  </div> 
+                </Link>
+                <Link to = "/Drum">
+                  <div className = "header__mid__content">
+                     <h2>DRUM& SAMPLE KITS</h2>     
+                  </div>
+                </Link>
                 <div className = "header__mid__content">
                   <h2>CONTACT</h2>
                 </div>
