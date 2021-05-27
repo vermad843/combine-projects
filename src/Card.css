@@ -1,0 +1,13 @@
+.card {
+    max-width : 1000px;
+    margin-left :auto;
+    margin-right : auto;
+}
+
+.card__row {
+    display : flex;
+    z-index : 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
