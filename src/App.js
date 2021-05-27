@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
+import Card from './Card';
 import {
   BrowserRouter as Router,
   Switch,
@@ -10,7 +11,7 @@ import {
 
 function App() {
   return (
-    <Router>
+  <Router>
     <div className="app">
        <Switch>
          <Route path = "/drum">
@@ -31,11 +32,12 @@ function App() {
          <Route path = "/">
            <Header/>
            <Main/>
+           <Card/>
            <Footer/>
          </Route>
        </Switch>
     </div>
-    </Router>
+  </Router>
   );
 }
 
