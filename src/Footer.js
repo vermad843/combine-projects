@@ -4,6 +4,11 @@ import './Footer.css';
 function Footer() {
     return (
         <div className = "footer">
+            <div className = "payment">
+               <div className = "payment__icon">
+                   <h2>Payment logos</h2>
+               </div>
+            </div>
             <h1>All rights reserved @2021</h1>
         </div>
     )
