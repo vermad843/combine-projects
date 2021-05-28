@@ -4,7 +4,11 @@ import './Button.css';
 function Button() {
     return (
         <div className = "view">
-            <button>View All</button>
+            <button>
+                 <h2>
+                   View All Kits
+                 </h2>
+            </button>
           </div>
     )
 }
