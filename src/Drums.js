@@ -8,7 +8,13 @@ function Drums() {
             <h1>Shop</h1>
             <div className = "drums__header">
                <h3>Filter By</h3>
-               <h3>All Products</h3>
+               <div>
+               <select value="All Products">
+                  <option value="All Products">All Products</option>
+                  <option value="Drum KIts">Drum Kits</option>
+                  <option value="Melody Kits">Melody Kits</option>
+               </select>
+               </div>
                <h3>15 Products</h3>
             </div>
             <div className = "drums__cards">
