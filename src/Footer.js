@@ -6,6 +6,9 @@ function Footer() {
         <div className = "footer">
             <div className = "payment">
                <div className = "payment__icon">
+                   <img
+                      src = "GooglePay.svg"
+                     />
                    <h2>Payment logos</h2>
                </div>
             </div>
