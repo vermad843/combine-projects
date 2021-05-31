@@ -1,0 +1,13 @@
+.drums > h1 {
+  text-align: center;
+  padding : 60px;
+}
+
+
+.drums__header {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border : 1px solid lightgrey;
+    padding : 15px;
+}
