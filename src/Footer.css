@@ -2,13 +2,22 @@
     border : 1px solid #e6e6e6;
     margin: 55px 0 0px 0;
     padding : 40px;
+    display : flex;
+    text-align: center;
+    justify-content: space-evenly ;
 }
 
 .footer > h1 {
     text-align: right;
 }
 
+.payment__icon {
+    display: flex;
+    text-align: center;
+}
+
 
 .payment__icon > img {
   width : 50px;  
+  margin-right: 20px;
 }

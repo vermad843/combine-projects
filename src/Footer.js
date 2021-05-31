@@ -9,7 +9,30 @@ function Footer() {
                    <img
                       src = "GooglePay.svg"
                      />
-                   <h2>Payment logos</h2>
+                    <img
+                      src = "ApplePay.svg"
+                     />
+                     <img
+                    src = "paypal.svg"
+                     />
+                     <img
+                      src = "GooglePay.svg"
+                     />
+                    <img
+                      src = "ApplePay.svg"
+                     />
+                     <img
+                    src = "paypal.svg"
+                     />
+                     <img
+                      src = "GooglePay.svg"
+                     />
+                    <img
+                      src = "ApplePay.svg"
+                     />
+                     <img
+                    src = "paypal.svg"
+                     />
                </div>
             </div>
             <h1>All rights reserved @2021</h1>
