@@ -1,5 +1,6 @@
 import React from 'react';
 import './Drums.css'
+import Card from './Card';
 
 function Drums() {
     return (
@@ -9,6 +10,19 @@ function Drums() {
                <h3>Filter By</h3>
                <h3>All Products</h3>
                <h3>15 Products</h3>
+            </div>
+            <div className = "drums__cards">
+                <div className = "drums__card">
+                    <Card/>
+                </div>  
+                {/* <div className = "drums__card">
+                    <Card/>
+                </div>  
+                <div className = "drums__card">
+                    <Card/>
+                </div>  <div className = "drums__card">
+                    <Card/>
+                </div>       */}
             </div>
         </div>
     )

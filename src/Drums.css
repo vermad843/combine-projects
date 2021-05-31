@@ -11,3 +11,7 @@
     border : 1px solid lightgrey;
     padding : 15px;
 }
+
+.drums__card {
+  text-align: center;
+}
