@@ -4,6 +4,7 @@ import Main from './Main';
 import Footer from './Footer';
 import Card from './Card';
 import Button from './Button';
+import Drums from './Drums';
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,7 +18,7 @@ function App() {
        <Switch>
          <Route path = "/drum">
             <Header/> 
-            <h1>Drum</h1>
+            <Drums/>
            <Footer/>
          </Route>
          <Route path = "/contact">
