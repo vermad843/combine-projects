@@ -15,14 +15,14 @@ function Drums() {
                 <div className = "drums__card">
                     <Card/>
                 </div>  
-                {/* <div className = "drums__card">
+                <div className = "drums__card">
                     <Card/>
                 </div>  
                 <div className = "drums__card">
                     <Card/>
                 </div>  <div className = "drums__card">
                     <Card/>
-                </div>       */}
+                </div>      
             </div>
         </div>
     )
