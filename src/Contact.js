@@ -4,9 +4,41 @@ import './Contact.css';
 function Contact() {
     return (
         <div className = "contact">
-            <h1>I am a Contact Component</h1>
+            <h1>Contact</h1>
+            <p>Let us know and we will get back to you ASAP﻿﻿</p>
+            <form>
+                <div>
+                   <label>
+                       Name
+                       <br/>
+                       <input/>
+                   </label>
+                   <label>
+                       Email
+                       <br/>
+                       <input/>
+                   </label>
+                </div>
+                <div>
+                    <label>
+                        Phone Number
+                        <br/>
+                        <input/>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Message
+                        <br/>
+                        <textarea/>
+                    </label>
+                </div>
+                <button>
+                    <h2>Send</h2>
+                </button>
+            </form>
         </div>
     )
 }
 
-export default Contact
+export default Contact;
