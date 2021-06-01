@@ -1,0 +1,20 @@
+.contact > h1 {
+    text-align: center;
+    padding : 60px;
+}
+
+.contact > p {
+    text-align: center;
+    font-size: bold;
+}
+
+.contact > form {
+    padding : 20px;
+}
+
+
+
+.form__firstLine {
+    display: flex;
+    text-align: center;;
+}

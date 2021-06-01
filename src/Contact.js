@@ -6,8 +6,8 @@ function Contact() {
         <div className = "contact">
             <h1>Contact</h1>
             <p>Let us know and we will get back to you ASAP﻿﻿</p>
-            <form>
-                <div>
+            <form className = "form">
+                <div className = "form__firstLine">
                    <label>
                        Name
                        <br/>
@@ -19,14 +19,14 @@ function Contact() {
                        <input/>
                    </label>
                 </div>
-                <div>
+                <div className = "form__secondLine">
                     <label>
                         Phone Number
                         <br/>
                         <input/>
                     </label>
                 </div>
-                <div>
+                <div className = "form__textarea">
                     <label>
                         Message
                         <br/>
