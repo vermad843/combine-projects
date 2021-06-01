@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Card from './Card';
 import Button from './Button';
 import Drums from './Drums';
+import Contact from './Contact';
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,7 +24,7 @@ function App() {
          </Route>
          <Route path = "/contact">
             <Header/> 
-            <h1>Contact</h1>
+            <Contact/>
            <Footer/>
          </Route>
          <Route path = "/freedownloads">

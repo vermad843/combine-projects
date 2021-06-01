@@ -15,7 +15,7 @@ function Drums() {
                   <option value="Melody Kits">Melody Kits</option>
                </select>
                </div>
-               <h3>15 Products</h3>
+               <h3>16 Products</h3>
             </div>
             <div className = "drums__cards">
                 <div className = "drums__card">
