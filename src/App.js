@@ -6,6 +6,7 @@ import Card from './Card';
 import Button from './Button';
 import Drums from './Drums';
 import Contact from './Contact';
+import Downloads from './Downloads';
 import {
   BrowserRouter as Router,
   Switch,
@@ -29,7 +30,7 @@ function App() {
          </Route>
          <Route path = "/freedownloads">
             <Header/> 
-            <h1>Free Downloads</h1>
+            <Downloads/>
            <Footer/>
          </Route>
          <Route path = "/">

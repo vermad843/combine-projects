@@ -1,3 +1,4 @@
+
 .contact > h1 {
     text-align: center;
     padding : 60px;
@@ -10,8 +11,8 @@
 
 .contact > form {
     padding : 20px;
+    display: block;
 }
-
 
 
 .form__firstLine {
