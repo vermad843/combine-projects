@@ -5,6 +5,8 @@
     display : flex;
     text-align: center;
     justify-content: space-evenly ;
+    position : relative;
+    bottom : -150px;
 }
 
 .footer > h1 {
